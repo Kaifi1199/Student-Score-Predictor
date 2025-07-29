@@ -13,7 +13,7 @@ with open(model_path, "rb") as f:
 
 with open(transformer_path, "rb") as f:
     poly = pickle.load(f)
-
+st.set_page_config(page_title="Student Score Predictor")
 st.title("📚 Student Exam Score Predictor")
 st.write("Enter the student's data to predict their expected exam score.")
 
